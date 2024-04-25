@@ -1,0 +1,33 @@
+:root{
+    --color-1: #0c093d;
+    --color-2: #ED618E;
+    --color-3: #53CAE9;
+    --color-4:rgb(123, 45, 248);
+    --space-layout-padding-lr: 33px 20px;
+    --space-layout-padding-ne: 2vh 20px 20px 20px;
+    --space-layout-padding-pig: 0.1vh 20px 25px 20px;
+}
+@font-face {
+    font-family: "prob";
+    src: url("../storage/font/SF-Pro-Text-Font-Family/SF-Pro-Text-Bold.otf");
+}
+@font-face {
+    font-family: "proh";
+    src: url("../storage/font/SF-Pro-Text-Font-Family/SF-Pro-Text-Heavy.otf");
+}
+@font-face {
+    font-family: "prol";
+    src: url("../storage/font/SF-Pro-Text-Font-Family/SF-Pro-Text-Light.otf");
+}
+@font-face {
+    font-family: "prom";
+    src: url("../storage/font/SF-Pro-Text-Font-Family/SF-Pro-Text-Medium.otf");
+}
+@font-face {
+    font-family: "prose";
+    src: url("../storage/font/SF-Pro-Text-Font-Family/SF-Pro-Text-Semibold.otf");
+}
+@font-face {
+    font-family: "robo";
+    src: url("../storage/font/static/RobotoMono-Bold.ttf");
+}
