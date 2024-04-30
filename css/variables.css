@@ -11,6 +11,10 @@
     src: url("../storage/font/SF-Pro-Text-Font-Family/SF-Pro-Text-Bold.otf");
 }
 @font-face {
+    font-family: "pror";
+    src: url("../storage/font/SF-Pro-Text-Font-Family/SF-Pro-Text-Regular.otf");
+}
+@font-face {
     font-family: "proh";
     src: url("../storage/font/SF-Pro-Text-Font-Family/SF-Pro-Text-Heavy.otf");
 }

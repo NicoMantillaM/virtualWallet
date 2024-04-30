@@ -98,9 +98,10 @@
     margin: 2vw 1.3vw;
 }
 .abajo{
+    display: flex;
+    flex-direction: column;
     height: 50vw;
     padding-bottom: 10vw;
-
 }
 .artcard{
     padding-bottom: 15vw;
