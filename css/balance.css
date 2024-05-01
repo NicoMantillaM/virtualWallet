@@ -3,6 +3,7 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+    
 }
 
 .header {
@@ -33,7 +34,9 @@
 
 .arriba{
     padding: 0 0 0 16vh;
-    background-color: var(--color-1);
+    background-image: url(../storage/img/galaxi.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
     border-radius: 0 0 80% 80%;
     height: 19vh;
     position: relative;
@@ -43,8 +46,8 @@
     width: 29vh;
 }
 .total{
-    background-color: var(--color-2);
-    color: white;
+    background-image: url("../storage/img/gali.svg");
+    color: var(--color-1);
     font-family: "prob";
     text-align: center;
     border-radius: 100%;
@@ -69,18 +72,25 @@
     gap: 3vh;
 }
 .botones a{
-    background-color: var(--color-1);
-    padding: 1.5vh 6vw;
+    background-image: url(../storage/img/galaxi.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 1.5vh 5.5vw;
     border-radius: 4vh;
     text-decoration: none;
+    text-align: center;
     color: white;
-    font-family: "pror";
+    font-family: "prob";
     font-size: 4.3vw;
     width: 100%;
     height: 100%;
 }
+.grafica {
+    width: 105%;
+    height: 72%;
+}
 .grafica img{
-    padding: 2vh 0;
+    padding: 1vh 0;
     width: 100%;
     height: 100%;
 }
@@ -104,7 +114,7 @@ small{
     font-size: 6.3vw;
 }
 .abajo{
-    background-color: #7bffdc62;
+    background-color:#88d8eca1;
 }
 .container{
     display: flex;
@@ -131,7 +141,7 @@ small{
 .containerp p{
     font-family: "pror";
     font-size: 3vw;
-    color: #33404f88;
+    color: #4d358eb3;
     padding: 0.2vh 0;
     margin-bottom: 2.5vh;
 }

@@ -1,8 +1,9 @@
 :root{
-    --color-1: #33404F;
-    --color-2: #00DDA3;
-    --color-3: #B5C5C3;
-    --space-layout-padding-lr: 38px 20px;
+    --color-1: #0c093d;
+    --color-2: #ED618E;
+    --color-3: #53CAE9;
+    --color-4:rgb(123, 45, 248);
+    --space-layout-padding-lr: 33px 20px;
     --space-layout-padding-ne: 2vh 20px 20px 20px;
     --space-layout-padding-pig: 0.1vh 20px 25px 20px;
 }
