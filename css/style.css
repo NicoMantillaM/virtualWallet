@@ -72,8 +72,14 @@ body{
     font-size: 9vw;
     margin-top: 2vw;
     color: rgba(255, 255, 255, 0.719);
+    animation: brillo 1.5s infinite; 
+    
 }
-
+@keyframes brillo {
+    0% { opacity: 1; }
+    50% { opacity: 0.5; }
+    100% { opacity: 1; }
+}
 .iz{
     display: flex;
     flex-direction: column;
