@@ -1,0 +1,288 @@
+@import url(variables.css);
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+main{
+    background-color: #545094;
+    height:90vh;
+}
+.header {
+    background-color: var(--color-1);
+    display: flex;
+    flex-direction: row;
+    padding: var(--space-layout-padding-lr);
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid rgba(63, 192, 201, 0.466);
+    /* background-color: rgb(105, 192, 159); */
+    height: 10vh;
+    /* z-index: -1; */
+    p{
+        font-family: "prob";
+        font-size: 4.5vw;
+        color:var(--color-4);
+        padding-left: 1.5vh;
+        letter-spacing: 0.3vh;
+    }
+}
+.header img {
+    width: 10vw;
+}
+.header__information{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.artpig {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    padding: var(--space-layout-padding-pig);
+    
+}
+
+.container{
+    display: flex;
+    flex-direction: row;
+    /* border: 1px orange solid; */
+    border-radius: 3vh;
+    
+    overflow: hidden;
+    box-shadow: 0px 0px 20px #ffffff33;
+}
+.image{
+    background-color: rgba(255, 255, 255, 0.7);
+    width: 40%;
+}
+.text{
+    display: flex;
+    flex-direction: row;
+    width: 60%;
+    background-color: rgba(255, 255, 255, 0.5);
+}
+.containerp{
+    align-items: center;
+    background-color: rgba(255, 255, 255, 0.5);
+    padding: 3.5vh 0vh 2vh 2vh;
+}
+.containerp h2{
+    font-family: "prob";
+    font-size: 5vw;
+    color: var(--color-1);
+    padding: 0.5vh 0;
+}
+.containerp p{
+    font-family: "prol";
+    font-size: 4vw;
+    color: #33404faf;
+    padding: 0.2vh 0;
+    margin-bottom: 2.5vh;
+}
+.titu h2{
+    padding: 2vh 0;
+    color: var(--color-1);
+    font-family: "prob";
+    font-size: 6vw;
+}
+.containerp a >button{
+    font-family:  "prob";
+    font-size: 2.9vw;
+    color: white;
+    text-decoration: none;
+    padding: 2vw 7vw;
+    border-radius: 5vh;
+    border-color: var(--color-3);
+    background-color: var(--color-3);
+    transition: transform 0.3s ease;
+}
+.containerp a> button:hover{
+    transform: scale(1.1);
+
+}
+
+.container .image img{
+    background-image: url("../storage/img/Ellipseg.svg");
+    border-radius: 0 9.5vh 9.5vh 0;
+    width: 100%;
+    height: 100%;
+    padding: 1vh 1vh 0 0;
+    text-align: center;
+}
+.containerekiz {
+    background-color: rgba(255, 255, 255, 0.5);
+}
+.containerekiz img{
+    width: 7.5vw;
+    margin: 2vw 1.3vw;
+}
+.abajo{
+    display: flex;
+    flex-direction: column;
+    height: 50vw;
+    padding-bottom: 10vw;
+}
+.artcard{
+    padding-bottom: 15vw;
+}
+.artcard h2{
+    padding: 11.5px 0 10px 20px;
+}
+.carru{
+    display: flex;
+    justify-content: space-between;
+    gap: 3.5vh;
+    flex-direction: row;
+    overflow-x: scroll;
+    /* background-color: blueviolet; */
+    padding: 0.3vh 15px 1vh 20px;
+}
+.carru p{
+    width: 11.5vh;
+}
+.carru a{
+    font-family: "prose";
+    text-align: center;
+    font-size: 4.1vw;
+    color:white;
+    /* padding: 9vw; */
+    height:77vw;
+    border-radius:5.5vw;
+    text-decoration: none;
+
+}
+.card1{
+    background-color:var(--color-1); 
+    background-image: url("../storage/img/galaxi.svg");
+    display: flex;
+    padding: 7vw 4vw 7vw 5vw;
+    flex-direction: column;
+}
+.card2{
+    color:var(--color-1); 
+    background-image: url("../storage/img/gali.svg");
+    display: flex;
+    padding: 7vw 4vw 7vw 5vw;
+    flex-direction: column;
+}
+.ship{
+    display: flex;
+    flex-direction: row;
+    gap: 19vw;
+    font-size: 3.5vw;
+    p{
+        text-align: end;
+    }
+}
+.ship2{
+    display: flex;
+    flex-direction: row;
+    gap: 19vw;
+    font-size: 3.5vw;
+    p{
+        color:var(--color-1);
+        text-align: end;
+    }
+}
+.ship2 img{
+    margin-bottom: 19vw;
+    width: 6vw;
+    filter: invert(80%);
+}
+
+.ship2 .precio h2{
+    color:var(--color-1);
+}
+
+.carru h2{
+    font-family: "prob";
+    font-size: 6.5vw;
+    
+}
+.ship img{
+    margin-bottom: 19vw;
+    width: 6vw;
+}
+.precio h2{
+    padding: 1vw 0;
+}
+.precio2 h2{
+    padding: 1vw 0;
+    color:var(--color-1);
+}
+small{
+    font-size: 4.5vw;
+}
+.logo {
+    height: 25vw;
+    text-align: start;
+}
+.logo img{
+    width: 12vw;
+    padding-top: 20vw;
+}
+.logo2 {
+    height: 25vw;
+    text-align: start;
+}
+.logo2 img{
+    width: 12vw;
+    padding-top: 20vw;
+    filter: invert(80%);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* seccion del footer */
+
+.footer{
+    position:fixed;
+    bottom: 0vh;
+    width: 100%;
+    height: 8.7vh;
+    display: flex;
+    flex-direction: column;
+    background-color:var(--color-1);
+
+}
+.footer__ul{
+    height: 18vh;
+    display: flex;
+    margin-left: -2vh;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.footer__ul li{
+    list-style: none;
+    height: 5vh;
+    width: 5vh;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+}
+.footer__ul li a{
+    display: flex;
+}
+.footer__ul li a img{
+    object-fit: contain;
+    width:9vw;
+}
+
+
